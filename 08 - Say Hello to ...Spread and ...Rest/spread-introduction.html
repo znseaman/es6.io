@@ -10,7 +10,12 @@
   const featured = ['Deep Dish', 'Pepperoni', 'Hawaiian'];
   const specialty = ['Meatzza', 'Spicy Mama', 'Margherita'];
 
-  const pizzas = [...featured, 'veg', ...specialty];
+  // const pizzas = featured.concat(specialty);
+  // console.log(pizzas);
+
+  const pizzas = [...featured, 'Veggie', ...specialty];
+  // console.log(pizzas);
+
   const fridayPizzas = [...pizzas];
 
   const deepDish = {
