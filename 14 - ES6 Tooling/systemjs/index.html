@@ -6,8 +6,10 @@
 </head>
 <body>
   <script src="https://jspm.io/system@0.19.js"></script>
+  <script src="http://cdn.polyfill.io/v2/polyfill.min.js"></script>
   <script>
-
+    System.config({ transpiler: 'babel' });
+    System.import('./main.js');
   </script>
 </body>
 </html>
